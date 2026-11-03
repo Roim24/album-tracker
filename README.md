@@ -1,16 +1,43 @@
-# React + Vite
+# Album Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Album Tracker is a web application designed to help music lovers to discover, collect, and explore music efficiently. Built with React and powered by external music APIs, the app allows users to search for albums, preview audio tracks, manage a personalized collection saved directly in their browser, and receive recommendations powered by Google's Gemini AI.
 
-Currently, two official plugins are available:
+## Screenshot and Live link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live Link:** [album-tracker-two.vercel.app](https://album-tracker-two.vercel.app)
 
-## React Compiler
+![Album Tracker Screenshot](./screenshot.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Search & Discover:** You can Search for albums and artists with real-time data powered by the iTunes API.
+- **Audio Previews:** You can listen to 30-second track previews directly within the app player.
+- **Personal Collection:** You can save your favorite albums to a personal collection.
+- **AI Recommendations:** Get personalized album suggestions powered by Google's Gemini AI based on your saved collection.
+- **Responsive Navigation:** Clean navigation bar featuring dynamic item counters for your collection.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend:** React, Vite
+- **State Management:** React Context API
+- **External Data & Media:** iTunes Search API, Deezer API
+- **AI Integration:** Google Gemini API
+- **Deployment & Hosting:** Vercel
+
+## How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Roim24/album-tracker.git](https://github.com/Roim24/album-tracker.git)
+   cd album-tracker
+
+## Limitations
+
+- **30-Second Previews:** Audio playback is limited only upto 30-second sample previews provided by external APIs.
+- **Browser-Only Storage:** Collections are saved only in your browser.
+- **External Player Constraints:** Deezer requires a login for full tracks.
+
+## Privacy Note & Disclaimer
+
+- **Privacy Note:** Prompts sent to the AI recommendations feature utilize album data from your collection to generate suggestions. 
+- **Disclaimer:** This project is not affiliated with, authorized, maintained, sponsored, or endorsed by Apple, Spotify, Deezer, or Google.
