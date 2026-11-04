@@ -26,8 +26,6 @@ Album Tracker is a web application designed to help music lovers to discover, co
 
 // How to Run Locally
 
-1. Clone the repository:
-   ```bash
    git clone [https://github.com/Roim24/album-tracker.git](https://github.com/Roim24/album-tracker.git)
    cd album-tracker
 
