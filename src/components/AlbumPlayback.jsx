@@ -20,8 +20,7 @@ useEffect(() => {
         };
     }, [title, artist]);
     const showPlayer = () => {
-        if (isPlaying) toggle(); // stop the preview so two things never play at
-        once
+        if (isPlaying) toggle(); // stop the preview so two things never play at once
         setUseDeezer(true);
     };
     // The Deezer player replaces the default track list
@@ -38,9 +37,7 @@ useEffect(() => {
                     loading="lazy"
                 />
                 <p className="card-meta">
-                    Only previews playing? Log in to Deezer in this browser, then
-
-                    reload.{" "}
+                    Only previews playing? Log in to Deezer in this browser, then reload.{" "}
 
                     <button className="link-btn" onClick={() => setUseDeezer(false)}>
                         Back to 30-second previews
@@ -53,9 +50,7 @@ useEffect(() => {
         <>
             {deezerId && (
                 <div className="deezer-callout">
-                    <p>Want to play this album in full on Deezer? You'll need to be
-
-                        logged in to Deezer.</p>
+                    <p>Want to play this album in full on Deezer? You'll need to be logged in to Deezer.</p>
 
                     <div className="callout-actions">
                         <a
