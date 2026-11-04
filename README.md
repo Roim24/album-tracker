@@ -4,7 +4,7 @@ Album Tracker is a web application designed to help music lovers to discover, co
 
 // Screenshot and Live link
 
-- Live Link: [album-tracker-two.vercel.app](https://album-tracker-two.vercel.app)
+- Live Link: [album-tracker-amparo.vercel.app](https://album-tracker-amparo.vercel.app/)
 
 ![Album Tracker Screenshot](./screenshot.png)
 
